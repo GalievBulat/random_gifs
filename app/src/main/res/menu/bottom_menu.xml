@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@id/gifListFragment"
+        android:title="@string/fr_list"
+        android:icon="@android:drawable/ic_dialog_dialer"/>
+    <item
+        android:id="@id/savedGifsListFragment"
+        android:title="@string/fr_saved"
+        android:icon="@android:drawable/ic_menu_save"/>
+</menu>

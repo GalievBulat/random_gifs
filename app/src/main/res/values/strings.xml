@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Random gifs</string>
+    <string name="help_text">No gifs yet</string>
+
+    <string name="help_bt_txt">Go to gifs list</string>
+    <string name="gif_def_title">Title</string>
+    <string name="upd_text">update</string>
+    <string name="fr_list">Gifs List</string>
+    <string name="fr_saved">Saved</string>
+    <string name="error_unknown_host">Bad gateway</string>
+    <string name="error_timeout">Request timeout</string>
+</resources>

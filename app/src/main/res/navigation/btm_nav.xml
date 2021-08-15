@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btm_nav"
+    app:startDestination="@id/savedGifsListFragment">
+
+    <fragment
+        android:id="@+id/gifListFragment"
+        android:name="com.kakadurf.randomgifs.presentation.randomgifslist.GifListFragment"
+        android:label="@string/fr_list" />
+    <fragment
+        android:id="@+id/savedGifsListFragment"
+        android:name="com.kakadurf.randomgifs.presentation.savedgifslist.SavedGifsListFragment"
+        android:label="@string/fr_saved" />
+</navigation>
